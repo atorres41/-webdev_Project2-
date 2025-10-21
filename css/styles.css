@@ -1,14 +1,5 @@
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h2, p {
-  margin: 10px;
-}
-
-ul {
+#main-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,11 +7,11 @@ ul {
   background-color: #333333;
 }
 
-ul li {
+#main-nav ul li {
   float: left;
 }
 
-ul li a {
+#main-nav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -28,13 +19,8 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+#main-nav ul li a:hover {
   background-color: #111111;
 }
 
 
-header {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-}
