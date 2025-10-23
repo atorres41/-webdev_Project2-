@@ -1,0 +1,28 @@
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bc4a75;
+}
+
+#main-nav ul li {
+  float: left;
+}
+
+#main-nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 201px;
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  background-color: #b60d81;
+}
+
+#main-header-videoGames{
+  background-color: #b4f9ce;
+  padding: 7px;
+}

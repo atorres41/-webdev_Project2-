@@ -14,8 +14,7 @@
 #main-nav ul li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 200px;
+  padding: 14px 201px;
   text-decoration: none;
 }
 
@@ -23,8 +22,8 @@
   background-color: #b60d81;
 }
 
-#main-header{
-  background-color: #e6f3a9;
-  padding: 5px;
-  text-align: center;
+#main-header-resume{
+  background-color: #99a0fe;
+  padding: 7px;
 }
+
