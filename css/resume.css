@@ -20,6 +20,7 @@ h1 {
 
 body{   
     background-image: url("../images/background_resume_image.jpg"); 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #page-wrapper{  width: 960px;
