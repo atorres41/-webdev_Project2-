@@ -22,11 +22,11 @@ h1 {
   padding: 0.3em 1em;
   border-radius: 40px;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
 }
 
 h1:hover {
   transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 #page-wrapper {
@@ -58,7 +58,6 @@ h1:hover {
   font-family: 'Devonshire', cursive;
   font-size: 1.8rem;
   background: linear-gradient(to right, #c26dff, #ffbb6e);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.2);
 }
