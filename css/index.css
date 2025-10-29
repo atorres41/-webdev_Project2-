@@ -55,6 +55,40 @@ ul {
   margin-bottom: 1em;
 }
 
+#dog-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 60rem; 
+  margin: 2rem auto; 
+  gap: 2%; 
+  flex-wrap: wrap; 
+}
+
+#dog-box {
+  background-color: hsl(33, 100%, 77%);
+  border: 0.2rem solid #ffb9d4;
+  border-radius: 1rem;
+  padding: 1.5em; 
+  text-align: center;
+  width: 40%; 
+  box-sizing: border-box;
+}
+
+#dog-box#imageR {
+  float: none;
+  width: 75%; 
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
+@media (max-width: 48rem) { 
+  .dog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 #main-nav ul {
   list-style-type: none;
   margin: 0;
@@ -85,7 +119,7 @@ ul {
 }
 
 #footer {
-  background-color: #b4f9ce; /* match header color or your preference */
+  background-color: #b4f9ce; 
   padding: 0.5em 0;
   text-align: center;
   font-size: 0.7rem;
