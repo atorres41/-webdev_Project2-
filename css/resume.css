@@ -5,17 +5,18 @@
   padding: 0;
   overflow: hidden;
   background-color: #bc4a75;
-}
-
-#main-nav ul li {
-  float: left;
+  display: flex;           
+  justify-content: center;      
+  align-items: center;  
 }
 
 #main-nav ul li a {
   display: block;
   color: white;
-  padding: 14px 201px;
+  padding: 1em 2em;
   text-decoration: none;
+  transition: background-color 0.3s;
+  white-space: nowrap; 
 }
 
 #main-nav ul li a:hover {
