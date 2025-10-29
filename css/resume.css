@@ -1,4 +1,32 @@
 
+header {
+  position: relative;
+  height: 113px;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3em;
+  font-family: 'Snell Roundhand', cursive;
+  color: #ffffff;
+  position: static;
+  margin-top: 20px;
+
+  background-color: #000000;
+  padding: 0.3em 1em;
+  border-radius: 40px;
+}
+
+body{   
+    background-image: url("../images/black.jpg"); 
+}
+
+#page-wrapper{  width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px 1px rgb(0, 0, 0);
+    border-radius: 24px 24px 0px 0px; }
+
 #main-nav ul {
   list-style-type: none;
   margin: 0;
@@ -24,7 +52,7 @@
 }
 
 #main-header-resume{
-  background-color: #99a0fe;
+  background-color: #b4f9ce;
   padding: 7px;
 }
-
+  
