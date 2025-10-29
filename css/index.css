@@ -16,77 +16,110 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background-color: #f7f7f7;
+  background-image: url("../images/home_background.jpg"); 
 }
 
 h1 {
   display: inline-block;
-  font-size: 3em;
-  font-family: 'Snell Roundhand', cursive;
-  color: #E35335;
-  position: static;
-  margin-top: 20px;
-
-  background-color: #ffe1d0;
+  font-size: 3rem;
+  color: #f87459;
+  margin-top: 1rem;
+  background-color: #ffeade;
   padding: 0.3em 1em;
-  border-radius: 40px;
+  border-radius: 2.5rem;
 }
 
 h2 {
   font-size: 2rem;
-  margin: 1em 0 0.5em 0;
+  margin: 6rem 0 2rem 0;
 }
-
 
 h3 {
   font-size: 1.5rem;
-  margin: 1.5em 0 0.5em 0;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
-p {
+p, ul {
   font-size: 1rem;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   text-align: justify;
+  line-height: 1.6;
 }
 
 ul {
-  padding-left: 1.5em;
-  text-align: left;
-  font-size: 1rem;
-  margin-bottom: 1em;
+  padding-left: 1.5rem;
 }
 
 #dog-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 60rem; 
-  margin: 2rem auto; 
-  gap: 2%; 
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  gap: 2%;
+  max-width: 60rem;
+  margin: 2rem auto;
 }
 
-#dog-box {
+.dog-box {
   background-color: hsl(33, 100%, 77%);
   border: 0.2rem solid #ffb9d4;
   border-radius: 1rem;
-  padding: 1.5em; 
+  padding: 1.5rem;
+  width: 48%;
   text-align: center;
-  width: 40%; 
   box-sizing: border-box;
 }
 
-#dog-box#imageR {
-  float: none;
-  width: 75%; 
+.dog-box .imageR {
   display: block;
-  margin: 0 auto 1em auto;
+  width: 75%;
+  margin: 0 auto 1rem auto;
+  float: none;
 }
 
-@media (max-width: 48rem) { 
-  .dog-container {
+@media (max-width: 48rem) {
+  #dog-container {
     flex-direction: column;
     align-items: center;
   }
+  .dog-box {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.text-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  max-width: 60rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.text-box h2,
+.text-box h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  background-color: paleturquoise;
+}
+
+.text-box p,
+.text-box ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  background-color: lavenderblush;
+}
+
+.center{
+  display: block;
+  margin: 1rem auto; 
+  width: 50%;        
+  height: auto;
+  float: none;   
+  background-color: thistle;    
 }
 
 #main-nav ul {
