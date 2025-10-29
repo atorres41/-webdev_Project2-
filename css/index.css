@@ -12,6 +12,12 @@ header {
   text-align: center;
 }
 
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
+
 h1 {
   display: inline-block;
   font-size: 3em;
@@ -23,6 +29,30 @@ h1 {
   background-color: #ffe1d0;
   padding: 0.3em 1em;
   border-radius: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1em 0 0.5em 0;
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  margin: 1.5em 0 0.5em 0;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 1.5em;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 1em;
 }
 
 #main-nav ul {
@@ -52,4 +82,14 @@ h1 {
 #main-header-homepage{
   background-color: #b4f9ce;
   padding: 7px;
+}
+
+#footer {
+  background-color: #b4f9ce; /* match header color or your preference */
+  padding: 0.5em 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #333;
+  clear: both; 
+
 }
