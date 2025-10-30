@@ -45,14 +45,20 @@ body{
     }
 
 h2{
+  font-family: Georgia (serif), 'Times New Roman', Times, serif;
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 
-h3{
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  margin-top: 1.5em;
+  font-weight: bold;
+  color: #000000; 
+  margin-top: 1.7em;
   margin-bottom: 0.5em;
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid #cfd1e1; 
 }
 
 p{

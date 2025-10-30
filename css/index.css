@@ -73,6 +73,7 @@ ul {
   width: 48%;
   text-align: center;
   box-sizing: border-box;
+  margin-bottom: 1rem;
 }
 
 .dog-box .imageR {
@@ -80,6 +81,21 @@ ul {
   width: 75%;
   margin: 0 auto 1rem auto;
   float: none;
+  border: 0.7rem solid #f8ffd3;
+  border-radius: 1rem;
+}
+
+.dog-box-text {
+  font-size: 1rem;
+  background-color: #fff0f5;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  height: auto;
+}
+
+.imageR:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 48rem) {
@@ -125,6 +141,13 @@ ul {
   height: auto;
   float: none;   
   background-color: thistle;    
+}
+
+#BSAImage{
+  display: block;
+  margin: 10px auto;
+  width: 25%;
+  height: auto;
 }
 
 #main-nav ul {

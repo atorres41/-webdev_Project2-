@@ -43,6 +43,7 @@ h1:hover {
   margin: 1.5rem 0;
   box-sizing: border-box;
   transition: transform 0.3s, box-shadow 0.3s;
+  background-color: cornsilk;
 }
 
 #intro {
@@ -50,6 +51,7 @@ h1:hover {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  background-color: #d7ffe6;
 }
 
 .text-box:hover {
@@ -61,7 +63,8 @@ h1:hover {
 .text-box ul {
   margin-top: 0.5rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: Garamond, Verdana, sans-serif;
 }
 
 .list-headings {
@@ -76,7 +79,8 @@ h1:hover {
   background-color: #4abc5f;
   display: flex;           
   justify-content: center;      
-  align-items: center;  
+  align-items: center;
+  letter-spacing: 0.1em;
 }
 
 
@@ -105,6 +109,7 @@ ul {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-style: italic;
+  color: whitesmoke;
 }
 
 #main-nav ul {
