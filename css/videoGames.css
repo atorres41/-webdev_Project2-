@@ -4,6 +4,7 @@ body {
   background: linear-gradient(135deg, #f7f7f7 0%, #e0e0ff 100%);
   margin: 0;
   padding: 0;
+  background-image: url("../images/videoGames_background.jpg"); 
 }
 
 header {
