@@ -36,30 +36,24 @@ h1:hover {
 }
 
 .text-box {
-  background-color: rgba(255, 255, 255, 0.95);
   border: 0.15rem solid #c26dff;
   border-radius: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 1.3rem 2rem;
   margin: 1.5rem 0;
   box-sizing: border-box;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+#intro {
+  font-family: Garamond, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
 .text-box:hover {
   transform: translateY(-0.25rem);
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
-}
-
-.text-box h2,
-.text-box h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: #5a2d91;
-  font-family: 'Devonshire', cursive;
-  font-size: 1.8rem;
-  background: linear-gradient(to right, #c26dff, #ffbb6e);
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.2);
 }
 
 .text-box p,
@@ -68,6 +62,22 @@ h1:hover {
   margin-bottom: 0;
   font-size: 1rem;
 }
+
+.list-headings {
+  font-family: Garamond, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.1em 0.2em;
+  overflow: hidden;
+  background-color: #4abc5f;
+  display: flex;           
+  justify-content: center;      
+  align-items: center;  
+}
+
 
 ul {
   padding-left: 1.5rem;
@@ -87,6 +97,13 @@ ul {
 .imageR:hover {
   transform: scale(1.05) rotate(2deg);
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+}
+
+#conclusion {
+  font-family: 'Courier New', Courier, monospace, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-style: italic;
 }
 
 #main-nav ul {
